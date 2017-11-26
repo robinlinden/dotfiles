@@ -10,6 +10,7 @@ set showmatch
 set showcmd
 colorscheme elflord
 
+
 " Vim functionality
 "" Keybinds
 let mapleader=","
@@ -44,5 +45,13 @@ filetype indent on
 " Indentation settings
 set tabstop=8
 set softtabstop=4
+set shiftwidth=4
 set expandtab
+
+
+" Folding
+set foldenable
+set foldlevelstart=99 " Open all folds by default
+set foldmethod=indent
+"" zM, zR, and za are useful commands. Remember them.
 
