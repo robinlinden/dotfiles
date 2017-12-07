@@ -1,5 +1,13 @@
 " Totally sweet .vimrc by Robin Linden <dev@robinlinden.eu>
 
+
+" Plugins
+try
+    source ~/.vim/vim-plug.vim
+catch
+endtry
+
+
 " Editor looks
 set number
 set cursorline
