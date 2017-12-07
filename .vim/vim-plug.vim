@@ -6,6 +6,6 @@ endif
 
 call plug#begin('~/.vim/bundle')
 
-
+Plug 'morhetz/gruvbox'
 
 call plug#end()

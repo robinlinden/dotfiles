@@ -16,7 +16,10 @@ set showmatch
 
 " Vim looks
 set showcmd
-colorscheme elflord
+set termguicolors
+let g:gruvbox_contrast_dark = 'hard'
+let g:gruvbox_contrast_light = 'soft'
+colorscheme gruvbox
 
 
 " Vim functionality
