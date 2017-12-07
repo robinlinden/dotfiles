@@ -29,6 +29,7 @@ let mapleader=","
 """ Movement
 nnoremap j gj
 nnoremap k gk
+set scrolloff=8
 
 """ Misc
 inoremap jk <esc>
