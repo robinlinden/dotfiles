@@ -40,6 +40,8 @@ set wildmenu
 "" Searching
 set hlsearch
 set incsearch
+set ignorecase
+set smartcase
 nnoremap <leader><space> :nohlsearch<CR>
 
 "" Backup, swap, undo
