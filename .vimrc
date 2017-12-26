@@ -44,6 +44,16 @@ set incsearch
 set ignorecase
 set smartcase
 nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <leader>gg :grep<space>
+nnoremap <leader>gl :grep!<space>
+nnoremap <leader>go :copen<CR>
+nnoremap <leader>gn :cn<CR>
+nnoremap <leader>gp :cp<CR>
+
+""" Improve grep
+if executable("ag")
+    set grepprg=ag\ --nogroup\ --nocolor\ --line-numbers\ --column
+endif
 
 "" Backup, swap, undo
 set backupdir=~/.vim/backup// " Maybe they'll fix this bug eventually.
