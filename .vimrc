@@ -36,7 +36,9 @@ set scrolloff=8
 inoremap jk <esc>
 
 "" File finding
+set path=.,**
 set wildmenu
+set wildignore+=*.o,*.pyc
 
 "" Searching
 set hlsearch
