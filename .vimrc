@@ -45,7 +45,7 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
 nnoremap <leader>gg :grep<space>
 nnoremap <leader>gl :grep!<space>
 nnoremap <leader>go :copen<CR>
