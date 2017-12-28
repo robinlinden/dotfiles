@@ -66,7 +66,7 @@ set undofile
 
 "" Misc
 set lazyredraw
-filetype indent on
+filetype plugin indent on
 
 
 " Indentation settings
