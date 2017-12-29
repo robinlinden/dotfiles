@@ -48,6 +48,8 @@ set smartcase
 nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
 nnoremap <leader>gg :grep<space>
 nnoremap <leader>gl :grep!<space>
+nnoremap <leader>gw :grep "\b<cword>\b" .<CR>
+nnoremap <leader>gW :grep <cword> .<CR>
 nnoremap <leader>go :copen<CR>
 nnoremap <leader>gn :cn<CR>
 nnoremap <leader>gp :cp<CR>
