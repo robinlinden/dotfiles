@@ -70,6 +70,9 @@ set undofile
 set lazyredraw
 filetype plugin indent on
 
+"" Splits
+set splitbelow
+set splitright
 
 " Indentation settings
 set tabstop=8
