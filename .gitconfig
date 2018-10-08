@@ -1,0 +1,8 @@
+[user]
+	name = Robin Lindén
+	email = dev@robinlinden.eu
+	signingkey = 7E605776
+[core]
+	autocrlf = input
+[commit]
+	gpgsign = true
